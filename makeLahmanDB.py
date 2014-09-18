@@ -21,9 +21,10 @@ for line in open('lahman2013.sql').read().split(';\n'):
         cursor.execute(line)
 #        print '-->',line,'<--'
 
-# test it
+# uncomment here to test it
 #cursor.execute("SELECT * FROM AllstarFull")
 #vals = cursor.fetchall()
 #print vals[1]
+#
 
 cursor.close()
